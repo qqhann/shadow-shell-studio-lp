@@ -25,6 +25,10 @@ paginate     = 10
   keywords = "game, game studio, gamedev, game dev, indie, indie game dev"
   images = [""]
 
+[params.iconSmall]
+  path = "/img/icon_small.svg"
+  alt = ""
+
 [taxonomies]
     category = "blog"
     tag      = "tags"

@@ -1,6 +1,9 @@
 <a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL | relLangURL }}{{ end }}" style="text-decoration: none;">
     <div class="logo">
         {{ if .Site.Params.Logo.path }}
+            {{ if .Site.Params.IconSmall.path }}
+                <img src="{{ .Site.Params.IconSmall.path }}" alt="{{ .Site.Params.IconSmall.alt }}" style="height: 20px; margin-right: 8px;" />
+            {{ end }}
             <img src="{{ .Site.Params.Logo.path }}" alt="{{ .Site.Params.Logo.alt }}" style="height: 17px;"/>
         {{ else }}
             <span class="logo__mark">{{ with .Site.Params.Logo.logoMark }}{{ . }}{{ else }}>{{ end }}</span>
