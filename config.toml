@@ -142,10 +142,10 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    url  = "https://twitter.com/QiushiPan"
   [[params.social]]
     name = "instagram"
-    url  = "https://instagram.com/"
+    url  = "https://instagram.com/shadowshellstudio/"
 
 
 #   [[params.social]]
