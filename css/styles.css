@@ -1,0 +1,16 @@
+@media (prefers-color-scheme: dark) {
+  .themed-svg {
+    filter: invert(1);
+  }
+}
+
+body {
+    -webkit-box-shadow: 0 0 200px rgba(0,0,0,0.4) inset;
+    -moz-box-shadow: 0 0 200px rgba(0,0,0,0.4) inset;
+    box-shadow: 0 0 200px rgba(0,0,0,0.4) inset;
+}
+
+.header {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
