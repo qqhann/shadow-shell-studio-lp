@@ -3,3 +3,11 @@
     filter: invert(1);
   }
 }
+
+body {
+    box-shadow: 0 0 200px rgba(0,0,0,0.4) inset;
+}
+
+.header {
+    backdrop-filter: blur(4px);
+}
