@@ -4,7 +4,7 @@
 
 {{ define "main" }}
     <main aria-role="main">
-        <div>
+        <div style="max-width: calc(100% - 60px); margin: auto;">
             {{ if .Site.Params.LogoImg.Path }}
                <img src="{{ .Site.Params.LogoImg.Path }}" class="themed-svg" alt="{{ .Site.Params.LogoImg.Alt }}" style="margin-bottom: 20px; max-width:{{ .Site.Params.LogoImg.MaxWidth }};" />
             {{ end }}
