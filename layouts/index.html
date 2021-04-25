@@ -5,16 +5,13 @@
 {{ define "main" }}
     <main aria-role="main">
         <div>
-            {{ if .Site.Params.Portrait.Path }}
-               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-            {{ end }}
-
             {{ if .Site.Params.LogoImg.Path }}
-               <img src="{{ .Site.Params.LogoImg.Path }}" class="" alt="{{ .Site.Params.LogoImg.Alt }}" style="margin-bottom: 20px; max-width:{{ .Site.Params.LogoImg.MaxWidth }};" />
+               <img src="{{ .Site.Params.LogoImg.Path }}" class="themed-svg" alt="{{ .Site.Params.LogoImg.Alt }}" style="margin-bottom: 20px; max-width:{{ .Site.Params.LogoImg.MaxWidth }};" />
             {{ end }}
 
             {{ if .Site.Params.Logo.Path }}
-                <img src="{{ .Site.Params.Logo.path }}" class="" alt="{{ .Site.Params.Logo.alt }}" style="width: 400px; max-width: calc(100% - 40px); margin: auto;"/>
+                <img src="{{ .Site.Params.Logo.path }}" class="themed-svg" alt="{{ .Site.Params.Logo.alt }}" 
+                    style="width: 400px; max-width: calc(100% - 40px); margin: auto;"/>
             {{ else }}
                 <h1 style="font-weight: 100;">{{ .Site.Title }}</h1>
             {{ end }}
