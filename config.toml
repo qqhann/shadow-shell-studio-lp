@@ -1,3 +1,5 @@
 baseURL = "https://shadowshell.studio/"
 languageCode = "en-us"
 title = "Shadow Shell Studio"
+
+theme = "hello-friend-ng"
