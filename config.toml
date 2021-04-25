@@ -134,6 +134,10 @@ disableHugoGeneratorInject = false
   #   path     = "/img/image.jpg"
   #   alt      = "Portrait"
   #   maxWidth = "50px"
+  [params.logoImg]
+    path     = "/img/shell_black.svg"
+    alt      = "Shedow Shell Image Logo"
+    maxWidth = "500px"
 
   # Social icons
   [[params.social]]
