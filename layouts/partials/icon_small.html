@@ -1,0 +1,8 @@
+<a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL | relLangURL }}{{ end }}" style="text-decoration: none;">
+    <div class="logo">
+        {{ if .Site.Params.IconSmall.path }}
+            <img src="{{ .Site.Params.IconSmall.path }}" alt="{{ .Site.Params.IconSmall.alt }}" />
+        {{ else }}
+        {{ end }}
+    </div>
+</a>
